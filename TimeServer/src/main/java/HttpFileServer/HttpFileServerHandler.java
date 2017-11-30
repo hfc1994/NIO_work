@@ -15,8 +15,6 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.util.regex.Pattern;
 
-import static io.netty.handler.codec.http.HttpMethod.GET;
-
 
 /**
  * Created by user-hfc on 2017/11/13.

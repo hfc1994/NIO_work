@@ -1,0 +1,10 @@
+<project xmlns='antlib:org.apache.tools.ant'>
+	<target name="bind">
+		<echo message="Running BindGen tool"/>
+		<java fork="yes" failonerror="true" classname="org.jibx.binding.generator.BindGen">
+			<classpath path="G:/Java_idea/NIO/lib/jibx-bind.jar"/>
+			<arg value="${basedir}/src/main/java/Tmall/POJO"/>
+			<arg value="Tmall.POJO.Order"/>
+		</java>
+	</target>
+</project>
